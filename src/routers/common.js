@@ -6,5 +6,8 @@ router
   .post('/api/test', async(ctx, next) => {
 
   })
+  .get('/api/test', async(ctx, next) => {
+
+  })
 
 module.exports = router

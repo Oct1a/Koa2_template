@@ -11,16 +11,13 @@ const bodyparser = require('koa-body')
 
 // 设置静态文件
 app.use(server(
-  path.join(__dirname, 'server/public/')
-))
-app.use(server(
   path.join(__dirname, './public')
 ))
 
 
 app.use(cors())
 app.use(json())
-app.use(htmlRender('./server/public/html'))
+  // app.use(htmlRender('./server/public/html'))
 
 // 路由中间件，因上传文件需求与koa-bodyparser不兼容，故换成koa-body
 app.use(bodyparser({
