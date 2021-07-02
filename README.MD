@@ -1,27 +1,28 @@
 ## 目录结构
-
+```
 Koa2_template
+
  ├── src
  │   ├── app.js
- │   ├── config							//配置
+ │   ├── config 							//配置
  │   │   └── index.js
- │   ├── controller					//操作类
+ │   ├── controller	 				//操作类
  │   │   └── user.js
- │   ├── core							//核心方法
- │   │   └── mysql.js				//数据库链接设置
- │   ├── model						//模型
+ │   ├── core				 			//核心方法
+ │   │   └── mysql.js	 			//数据库链接设置
+ │   ├── model			 			//模型
  │   │   └── user.js
- │   ├── public					
- │   ├── routers               			//路由
- │   │   ├── common.js				
- │   │   └── index.js			
+ │   ├── public
+ │   ├── routers                			//路由
+ │   │   ├── common.js
+ │   │   └── index.js
  │   └── utils								//工具类
  │       ├── checkToken.js			//验证token
  │       ├── createToken.js			//创建token
  │       └── sha1.js						 //sha1算法，微信验证时会用到
  └── vue.config.js
 
-
+```
 
 ## 启动
 
